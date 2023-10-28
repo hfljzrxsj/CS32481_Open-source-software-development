@@ -7,7 +7,6 @@
   animation: particle 5s
 }
 
-
 @keyframes particle {
   to {
     top: var(--t);
