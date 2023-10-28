@@ -1,4 +1,4 @@
-import { useEffect } from 'react';;
+import { useEffect } from 'react';
 import style from './Particle.module.css';
 const Particle = () => {
   useEffect(() => {
