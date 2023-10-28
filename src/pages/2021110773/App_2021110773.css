@@ -1,0 +1,48 @@
+:root {
+  background: linear-gradient(45deg, hsla(0, 100%, 75%, .8), hsla(60, 100%, 75%, .8), hsla(120, 100%, 75%, .8), hsla(180, 100%, 75%, .8), hsla(240, 100%, 75%, .8), hsla(300, 100%, 75%, .8), hsla(360, 100%, 75%, .8));
+  min-height: 100vmin;
+}
+
+* {
+  user-select: none;
+}
+
+.App {
+  padding: 1.5%;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 2em;
+  box-shadow: inset 2px 2px 30px rgb(255 255 255 / 50%), inset -2px -2px 30px rgb(255 255 255 / 50%);
+  height: 80vh;
+  margin-top: 6vmin;
+
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  font-family: "Comic Sans MS", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media (max-width: 767px) {
+  .App {
+    grid-template-columns: 1fr;
+    height: 100%;
+    margin-bottom: 2vmin;
+  }
+}
+
+.MUI {
+  background-color: rgba(240, 255, 255, 0.5);
+  border-radius: 2em;
+  padding: 5%;
+}
+
+.MUI>h3 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-weight: 600;
+  color: #ffaadd;
+  text-shadow: 0 0 10px #fff;
+  text-align: center;
+  letter-spacing: .1rem;
+}

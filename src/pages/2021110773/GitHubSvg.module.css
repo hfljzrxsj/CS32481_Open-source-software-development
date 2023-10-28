@@ -1,0 +1,27 @@
+.icon svg {
+  height: 21px;
+  width: 21px;
+  fill: #000
+}
+
+.icon svg:hover {
+  fill: #aaa
+}
+
+.icon a {
+  display: inline-block;
+  position: relative
+}
+
+.icon a:hover::after {
+  font-family: "Comic Sans MS", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  content: attr(data-tooltip);
+  position: absolute;
+  top: -20px;
+  left: -3px;
+  width: 50px;
+  padding: 2px;
+  color: #000;
+  z-index: 1;
+  font-size: 12px
+}

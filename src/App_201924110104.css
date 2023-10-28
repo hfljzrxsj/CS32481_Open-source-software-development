@@ -1,0 +1,37 @@
+
+.App {
+  position:absolute;
+  top:50%;
+  margin-top:-200px;
+  left:50%;
+  margin-left:-200px;
+  background-color:whitesmoke;
+  width:400px;
+  height:450px;
+  border-radius:25px;
+  text-align:center; 
+  padding:5px 40px;
+  box-sizing:border-box; 
+ }
+ 
+ /* Autocomplete 整体*/
+ .MuiAutocomplete-root {
+   margin-top: 20px;
+ }
+ 
+ /* FormGroup整体 */
+ .MuiFormGroup-root {
+   margin-top: 15px;
+   display: 'flex';
+   align-items: center; 
+ }
+ 
+ /* ButtonGroup整体 */
+ .MuiButtonGroup-root {
+   margin-top: 24px;
+ }
+ 
+ /* textField整体 */
+ #boxUser #boxPswd {
+  margin-top: 24px;
+ }
