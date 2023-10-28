@@ -1,4 +1,4 @@
-import { React, useState } from "react";;
+import { React, useState } from "react";
 import { TextField, Button, Box } from "@mui/material";
 export default function MyForm () {
   const [name, setName] = useState("");
@@ -42,3 +42,4 @@ export default function MyForm () {
     </Box>
   );
 }
+
