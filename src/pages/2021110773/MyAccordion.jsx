@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react";;
 import { Accordion, AccordionSummary, AccordionDetails, Typography } from "@mui/material";
 import GitHubSvg from './GitHubSvg';
 export default function MyAccordion () {
